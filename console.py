@@ -10,8 +10,8 @@ import json
 import re
 from typing import cast
 
-from models import storage
-
+"""from models import storage"""
+from models.engine.file_storage import FileStorage as storage
 
 class HBNBCommand(cmd.Cmd):
     """AirBnB clone console"""
